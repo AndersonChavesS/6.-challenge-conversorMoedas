@@ -112,7 +112,3 @@ Anderson Chaves
 
 ---
 
-## 📸 Preview
-
-![console-preview](./assets/console-preview.png)
-
