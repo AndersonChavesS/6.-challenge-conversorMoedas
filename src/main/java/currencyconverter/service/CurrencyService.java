@@ -12,6 +12,9 @@ public class CurrencyService {
     private static final String API_KEY = "803b4bc4ac2bac9b390dd464";
     private static final String BASE_URL = "https://v6.exchangerate-api.com/v6/";
 
+    public CurrencyService(ConversionHistory history) {
+    }
+
     public void converter(String from, String to, double amount) {
         try {
             String urlStr = BASE_URL + API_KEY + "latest/" + from;
