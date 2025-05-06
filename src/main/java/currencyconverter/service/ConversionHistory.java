@@ -3,7 +3,7 @@ package currencyconverter.service;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ConversiontHistory {
+public class ConversionHistory {
     private final List<String> history = new ArrayList<>();
 
     public void addRecord(String record) {
