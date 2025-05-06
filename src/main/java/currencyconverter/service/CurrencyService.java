@@ -11,8 +11,10 @@ import java.net.URL;
 public class CurrencyService {
     private static final String API_KEY = "803b4bc4ac2bac9b390dd464";
     private static final String BASE_URL = "https://v6.exchangerate-api.com/v6/";
+    private final ConversionHistory history;
 
     public CurrencyService(ConversionHistory history) {
+        this.history = history;
     }
 
     public void converter(String from, String to, double amount) {
@@ -48,6 +50,9 @@ public class CurrencyService {
 
             double valorConvertido = amount * taxaConversao;
             System.out.printf("%.2f %s = %.2f %s\n", amount, from, valorConvertido, to);
+
+            String record = String.format("%.2f %s = %.2f %s", amount, from, valorConvertido, to);
+            history.addRecord(record);
         } catch (Exception e) {
             System.out.println("Erro: " + e.getMessage());
         }
