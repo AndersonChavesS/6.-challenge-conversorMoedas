@@ -20,15 +20,18 @@ via Gson, histórico de conversões e registros de data e hora.
 
 ```
 src/
- └── app/
-     └── CurrencyConverterApp.java
- └── model/
-     └── ExchangeResponse.java
- └── service/
-     └── CurrencyConverterService.java
-     └── ConversionHistory.java
- └── util/
-     └── LoggerUtil.java
+ └── main
+      └── java
+           └── currencyconverter  
+                 └── app/
+                     └── CurrencyConverterApp.java
+                 └── model/
+                     └── ExchangeResponse.java
+                 └── service/
+                     └── CurrencyConverterService.java
+                     └── ConversionHistory.java
+                 └── util/
+                     └── LoggerUtil.java
 ```
 
 ---
@@ -101,14 +104,14 @@ Exemplos:
 
 ## 📖 Licença
 
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está licenciado sob a licença MIT.
 
 ---
 
 ## ✨ Autor
 
 Anderson Chaves  
-[LinkedIn](https://www.linkedin.com/in/seulinkedin) | [GitHub](https://github.com/seuusuario)
+[LinkedIn](https://www.linkedin.com/in/developer-anderson-chaves/) | [GitHub](https://github.com/AndersonChavesS)
 
 ---
 
