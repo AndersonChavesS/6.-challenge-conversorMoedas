@@ -1,5 +1,7 @@
 package currencyconverter.service;
 
+import currencyconverter.util.LoggerUtil;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,7 +9,8 @@ public class ConversionHistory {
     private final List<String> history = new ArrayList<>();
 
     public void addRecord(String record) {
-        history.add(record);
+        String logRecord = LoggerUtil.log(record);
+        history.add(logRecord);
     }
 
     public void showHistory() {

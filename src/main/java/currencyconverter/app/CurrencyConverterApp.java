@@ -1,7 +1,5 @@
 package currencyconverter.app;
 
-
-
 import currencyconverter.service.ConversionHistory;
 import currencyconverter.service.CurrencyService;
 
