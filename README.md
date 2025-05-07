@@ -90,7 +90,7 @@ Exemplo:
 
 ---
 
-## 📑 Convention de Commits
+## 📑 Conventional Commits
 
 Este projeto segue o padrão **Conventional Commits**.  
 Exemplos:
